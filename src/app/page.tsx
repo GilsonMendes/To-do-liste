@@ -2,17 +2,24 @@
 import Image from "next/image"
 export default function Home() {
   return (
-    <main>
-      <div className="bg-red-200 w-1/2 mt-6 ml-6" >
-        <Image
-          className="clear-both float-left mr-6"
+    <main className="bg-slate-950 h-screen">
+      <div className="flex justify-center" >
+        <Image className="mt-96"
           src="/assets/hero.png" alt="Logo site"
           height={469}
           width={469}
           priority
         />
       </div>
-      <h1>Sistema feito para você organizar seus estudos e tarefas</h1>
+      <h1
+          className="flex justify-center 
+          text-center
+        text-slate-50 
+        mt-10 
+        font-bold 
+        text-2xl">
+        Sistema feito para você organizar <br/>seus estudos e tarefas
+      </h1>
     </main>
   )
 }
