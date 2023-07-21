@@ -22,14 +22,17 @@ export default function Home() {
       </h1>
       <div className="sm:flex justify-center">
         <div className="flex justify-center">
-          <button className="bg-slate-50 w-96 sm:bg-slate-50 sm:w-64 p-4 mt-8 rounded-lg font-bold text-lg"
+          <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-100 duration-300
+          bg-slate-50 w-96 sm:bg-slate-50 sm:w-64 p-4 mt-8 rounded-lg font-bold text-lg"
             type="submit">
             + 7 posts
           </button>
 
         </div>
         <div className="flex justify-center">
-          <button className="bg-slate-50 mt-8 flex justify-center w-96 sm:bg-slate-50 sm:w-64 sm:ml-10 p-4 rounded-lg font-bold text-lg"
+          <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-100 duration-300
+          bg-slate-50 mt-8 w-96 
+          sm:bg-slate-50 sm:w-64 sm:ml-10 p-4 rounded-lg font-bold text-lg"
             type="submit">
             + 7 Comentários
           </button>
